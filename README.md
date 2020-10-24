@@ -1,8 +1,8 @@
 # MyPckMachineLearning
 
 ### TransferMachineLearing
-VGG16に対し
-x = GlobalAveragePooling2D()(x)
-x = Dense(1024, activation='relu')(x)
-predictions = Dense(N_CATEGORIES, activation='softmax')(x)
+VGG16に対し<br>
+x = GlobalAveragePooling2D()(x)<br>
+x = Dense(1024, activation='relu')(x)<br>
+predictions = Dense(N_CATEGORIES, activation='softmax')(x)<br>
 をした。
